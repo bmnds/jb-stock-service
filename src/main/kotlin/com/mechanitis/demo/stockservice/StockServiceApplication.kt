@@ -17,7 +17,7 @@ import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.ThreadLocalRandom
 
 @SpringBootApplication
-class StockServiceApplication
+open class StockServiceApplication
 
 fun main(args: Array<String>) {
     runApplication<StockServiceApplication>(*args)
